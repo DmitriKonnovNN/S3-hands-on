@@ -17,3 +17,8 @@ variable "bucket_regions" {
   type        = list(string)
   description = "enter regions to create a bucket in"
 }
+
+variable "access_point_name" {
+  type = string
+
+}
